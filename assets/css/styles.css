@@ -9,10 +9,6 @@ body {
   height: 90vh;
 }
 
-#intro-container {
-  margin-top: 2rem;
-}
-
 #intro-text-top {
   color: #242526;
   font-weight: 500;
