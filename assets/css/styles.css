@@ -7,6 +7,18 @@ html, body {
   height: 85vh;
 }
 
+#contact {
+  padding-top: 4rem;
+  height: 85vh;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding-top: 2rem;
+    height: 85vh;
+  }
+}
+
 @media (max-width: 768px) {
   #home {
     padding-top: 2rem;
@@ -19,6 +31,22 @@ html, body {
   font-weight: 500;
   font-size: 34px;
   line-height: 40px;
+}
+
+#contact-text {
+  color: #242526;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+@media (max-width: 768px) {
+  #contact-text {
+    color: #242526;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+  }
 }
 
 @media (max-width: 768px) {
