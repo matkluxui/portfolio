@@ -82,6 +82,7 @@ html, body {
   border: 0 !important;
   float: right;
   /*position: relative;*/
+  pointer-events: auto;
 }
 
 .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
