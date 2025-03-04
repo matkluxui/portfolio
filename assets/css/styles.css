@@ -7,6 +7,13 @@ html, body {
   height: 85vh;
 }
 
+@media (max-width: 768px) {
+  #home {
+    padding-top: 2rem;
+    height: 85vh;
+  }
+}
+
 #intro-text-top {
   color: #242526;
   font-weight: 500;
@@ -31,7 +38,7 @@ html, body {
 
 @media (max-width: 768px) {
   #intro-text-bottom {
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: #242526;
     font-size: 14px;
   }
@@ -80,7 +87,7 @@ html, body {
 
 .navbar-toggler .middle-bar {
   opacity: 0;
-  filter: alpha(opacity=0);
+  /*filter: alpha(opacity=0);*/
 }
 
 .navbar-toggler .bottom-bar {
