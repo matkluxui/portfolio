@@ -1,4 +1,4 @@
-body {
+html, body {
   font-family: 'Funnel Sans', sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
 
 #intro-text-top {
   color: #242526;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 34px;
   line-height: 40px;
 }
