@@ -123,9 +123,14 @@ html, body {
   transform-origin: 10% 90%;
 }
 
+.navbar.bg-transparent {
+  pointer-events: none;
+}
+
 .nav-item {
   font-size: 16px;
   font-weight: 500;
+  pointer-events: auto;
 }
 
 /* State when navbar is opened (END) */
@@ -134,6 +139,14 @@ html, body {
 
 .navbar-toggler.collapsed .top-bar {
   transform: rotate(0);
+}
+
+.nav-link {
+  color: #e74c3c;
+}
+
+.nav-link:hover {
+  color: #01dd09;
 }
 
 .navbar-toggler.collapsed .middle-bar {
