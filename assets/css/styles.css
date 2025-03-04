@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Funnel Sans', sans-serif;
 }
 
 #home {
@@ -9,7 +9,7 @@ body {
 
 #intro-text-top {
   color: #242526;
-  font-weight: 500;
+  font-weight: 550;
   font-size: 34px;
   line-height: 40px;
 }
@@ -111,5 +111,9 @@ body {
 
 .navbar-toggler.collapsed .toggler-icon {
   background-color: #242526;
+}
+
+.projects-column {
+  padding: 0;
 }
 
