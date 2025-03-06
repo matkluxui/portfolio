@@ -3,8 +3,18 @@ html, body {
 }
 
 #home {
-  padding-top: 4rem;
+  /*padding-top: 6rem;*/
   height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #home {
+    padding-top: 4rem;
+    height: 85vh;
+  }
 }
 
 #contact {
@@ -14,13 +24,6 @@ html, body {
 
 @media (max-width: 768px) {
   #contact {
-    padding-top: 2rem;
-    height: 85vh;
-  }
-}
-
-@media (max-width: 768px) {
-  #home {
     padding-top: 2rem;
     height: 85vh;
   }
@@ -218,5 +221,9 @@ html, body {
   opacity: 0;
   pointer-events: none;
   z-index: 2;
+}
+
+footer {
+  font-weight: 200;
 }
 
